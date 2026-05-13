@@ -75,21 +75,29 @@ attempt = 0
 while(True):
     you = int(input("Guess the number Between 1 to 100:"))
     attempt +=1
-        if(you >=101 or you <=0):
+
+    if(you >=101 or you <=0):
         print(f"Plese Guess the number Between 1 to 100 🫵🏻")
-        elif(computer < you):
-        print(f"Please guess the Smaller number 📉"
-        elif(computer > you):
+
+    elif(computer < you):
+        print(f"Please guess the Smaller number 📉")
+
+    elif(computer > you):
         print(f"Please guess the Biger number 📈")
-        else:  # computer == you
+    
+    else:  # computer == you
         print(f"🎉 Congratulations! You guessed the number in {attempt} attempts")
+
         break
 
 🎮 Example Output
+
 Guess the number Between 1 to 100: 50
 Please guess the Bigger number 📈
+
 Guess the number Between 1 to 100: 75
 Please guess the Smaller number 📉
+
 Guess the number Between 1 to 100: 63
 🎉 Congratulations! You guessed the number in 3 attempts
 
