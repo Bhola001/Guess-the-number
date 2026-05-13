@@ -72,8 +72,11 @@ import random
 computer = random.randint(1, 100)
 
 attempt = 0
+
 while(True):
+
     you = int(input("Guess the number Between 1 to 100:"))
+    
     attempt +=1
 
     if(you >=101 or you <=0):
@@ -93,12 +96,15 @@ while(True):
 🎮 Example Output
 
 Guess the number Between 1 to 100: 50
+
 Please guess the Bigger number 📈
 
 Guess the number Between 1 to 100: 75
+
 Please guess the Smaller number 📉
 
 Guess the number Between 1 to 100: 63
+
 🎉 Congratulations! You guessed the number in 3 attempts
 
 🌟 Future Improvements
