@@ -50,7 +50,7 @@ Install Python on your computer.
 Clone this repository:
 
 
-git clone https://github.com/your-username/Number-Guessing-Game.git
+git clone https://github.com/Bhola001/Number-Guessing-Game.git
 
 
 Open the project folder:
