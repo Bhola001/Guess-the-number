@@ -1,3 +1,4 @@
+print("=== We play a random guessing game ===")
 
 import random
 
